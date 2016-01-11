@@ -104,7 +104,7 @@ public class World{
 
 		//try and catch statement, if the image file could not be found
 		try {
-			actualHealthBar = ImageIO.read(new File("Health_Bar.png")); //Imports the entire health bar picture
+			actualHealthBar = ImageIO.read(new File("images/Health_Bar.png")); //Imports the entire health bar picture
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Could not load the image files.");

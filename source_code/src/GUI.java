@@ -253,53 +253,53 @@ public class GUI extends JFrame implements Runnable, MouseListener, MouseMotionL
 			//in the game files using the ImageIO.read command to 'read' these images and incorporate them into the program. as mentioned
 			//above, most of these screens are externally developed (Microsoft Paint) to suit the design of the game.
 			
-			icon = new ImageIcon("Missile_Command_Icon.png");
+			icon = new ImageIcon("images/Missile_Command_Icon.png");
 			setIconImage(icon.getImage());
 
-			backGround = ImageIO.read(new File("Night_Sky.png"));
-			planetSurface = ImageIO.read(new File("Planet_Surface101.gif"));
-			missileDish = ImageIO.read(new File("Missile_Dish.gif"));
-			missileDishLightingBigImg = ImageIO.read(new File("Lighting.gif"));
+			backGround = ImageIO.read(new File("images/Night_Sky.png"));
+			planetSurface = ImageIO.read(new File("images/Planet_Surface101.gif"));
+			missileDish = ImageIO.read(new File("images/Missile_Dish.gif"));
+			missileDishLightingBigImg = ImageIO.read(new File("images/Lighting.gif"));
 
-			explosionBigImg = ImageIO.read(new File("Explosion_Sprite.gif"));
-			mainScreenPic=ImageIO.read(new File("main_screen.png"));
-			missilesAmmo = ImageIO.read(new File("Missiles_Ammo101.gif"));
-			playGamePic=ImageIO.read(new File ("main_screen_playgame.png"));
-			levelsPic=ImageIO.read(new File("main_screen_levels.png"));
-			howToPlay=ImageIO.read(new File("main_screen_howtoplay.png"));
-			settings=ImageIO.read(new File("main_screen_settings.png"));
-			credits=ImageIO.read(new File("main_screen_credits.png"));
-			levelScreen=ImageIO.read(new File("levels_screen.png"));
-			backToMS=ImageIO.read(new File("levels_screen_backtomainscreen.png"));
-			HTPScreen=ImageIO.read(new File("howtoplayscreen.png"));
-			HTPScreenBack=ImageIO.read(new File("howtoplayscreenback.png"));
-			creditsScreen=ImageIO.read(new File("credits.png"));
-			creditsScreenBack=ImageIO.read(new File("creditsback.png"));
-			pauseScreen=ImageIO.read(new File("game_paused_screen.png"));
-			pauseScreenExit=ImageIO.read(new File("game_paused_screen_return.png"));
-			pauseScreenContinue=ImageIO.read(new File("game_paused_screen_continue.png"));
-			gameOverScreen=ImageIO.read(new File("game_over_screen.png"));
-			gameOverScreenAgain=ImageIO.read(new File("game_over_screen_tryagain.png"));
-			gameOverScreenExit=ImageIO.read(new File("game_over_screen_return.png"));
+			explosionBigImg = ImageIO.read(new File("images/Explosion_Sprite.gif"));
+			mainScreenPic=ImageIO.read(new File("images/main_screen.png"));
+			missilesAmmo = ImageIO.read(new File("images/Missiles_Ammo101.gif"));
+			playGamePic=ImageIO.read(new File ("images/main_screen_playgame.png"));
+			levelsPic=ImageIO.read(new File("images/main_screen_levels.png"));
+			howToPlay=ImageIO.read(new File("images/main_screen_howtoplay.png"));
+			settings=ImageIO.read(new File("images/main_screen_settings.png"));
+			credits=ImageIO.read(new File("images/main_screen_credits.png"));
+			levelScreen=ImageIO.read(new File("images/levels_screen.png"));
+			backToMS=ImageIO.read(new File("images/levels_screen_backtomainscreen.png"));
+			HTPScreen=ImageIO.read(new File("images/howtoplayscreen.png"));
+			HTPScreenBack=ImageIO.read(new File("images/howtoplayscreenback.png"));
+			creditsScreen=ImageIO.read(new File("images/credits.png"));
+			creditsScreenBack=ImageIO.read(new File("images/creditsback.png"));
+			pauseScreen=ImageIO.read(new File("images/game_paused_screen.png"));
+			pauseScreenExit=ImageIO.read(new File("images/game_paused_screen_return.png"));
+			pauseScreenContinue=ImageIO.read(new File("images/game_paused_screen_continue.png"));
+			gameOverScreen=ImageIO.read(new File("images/game_over_screen.png"));
+			gameOverScreenAgain=ImageIO.read(new File("images/game_over_screen_tryagain.png"));
+			gameOverScreenExit=ImageIO.read(new File("images/game_over_screen_return.png"));
 
-			settingsScreen=ImageIO.read(new File("settings_screen.png"));
-			settingsScreenLeft=ImageIO.read(new File("settings_screen_left.PNG"));
-			settingsScreenRight=ImageIO.read(new File("settings_screen_right.PNG"));
-			settingsScreenBack=ImageIO.read(new File("settings_screen_back.PNG"));
+			settingsScreen=ImageIO.read(new File("images/settings_screen.png"));
+			settingsScreenLeft=ImageIO.read(new File("images/settings_screen_left.PNG"));
+			settingsScreenRight=ImageIO.read(new File("images/settings_screen_right.PNG"));
+			settingsScreenBack=ImageIO.read(new File("images/settings_screen_back.PNG"));
 
-			levelsScreenImage=ImageIO.read(new File("levels_screen.PNG"));
-			levelsScreenImage1=ImageIO.read(new File("levels_screen_1.PNG"));
-			levelsScreenImage2=ImageIO.read(new File("levels_screen_2.PNG"));
-			levelsScreenImage3=ImageIO.read(new File("levels_screen_3.PNG"));
-			levelsScreenImage4=ImageIO.read(new File("levels_screen_4.PNG"));
-			levelsScreenImage5=ImageIO.read(new File("levels_screen_5.PNG"));
+			levelsScreenImage=ImageIO.read(new File("images/levels_screen.PNG"));
+			levelsScreenImage1=ImageIO.read(new File("images/levels_screen_1.PNG"));
+			levelsScreenImage2=ImageIO.read(new File("images/levels_screen_2.PNG"));
+			levelsScreenImage3=ImageIO.read(new File("images/levels_screen_3.PNG"));
+			levelsScreenImage4=ImageIO.read(new File("images/levels_screen_4.PNG"));
+			levelsScreenImage5=ImageIO.read(new File("images/levels_screen_5.PNG"));
 
-			levelCompleteScreenImage=ImageIO.read(new File("level_complete_screen.PNG"));
-			levelCompleteScreenImageReturn=ImageIO.read(new File("level_complete_screen_return.PNG"));
-			levelCompleteScreenImageProceed=ImageIO.read(new File("level_complete_screen_proceed.PNG"));
-			levelCompleteScreenImageSettings=ImageIO.read(new File("level_complete_screen_settings.PNG"));
-			levelCompleteScreenImageSettingsReturn=ImageIO.read(new File("level_complete_screen_settings_return.PNG"));
-			levelCompleteScreenImageSettingsProceed=ImageIO.read(new File("level_complete_screen_settings_selected.PNG"));
+			levelCompleteScreenImage=ImageIO.read(new File("images/level_complete_screen.PNG"));
+			levelCompleteScreenImageReturn=ImageIO.read(new File("images/level_complete_screen_return.PNG"));
+			levelCompleteScreenImageProceed=ImageIO.read(new File("images/level_complete_screen_proceed.PNG"));
+			levelCompleteScreenImageSettings=ImageIO.read(new File("images/level_complete_screen_settings.PNG"));
+			levelCompleteScreenImageSettingsReturn=ImageIO.read(new File("images/level_complete_screen_settings_return.PNG"));
+			levelCompleteScreenImageSettingsProceed=ImageIO.read(new File("images/level_complete_screen_settings_selected.PNG"));
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
