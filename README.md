@@ -1,4 +1,4 @@
-Author: Alex Patel
+Author: Alex Patel and Sriram Madhusudhan
 
 Description: Recreaction of the Popular arcade game Missile Command.
              The "source_code" folder contains the eclipse version of the game.
